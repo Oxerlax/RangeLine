@@ -15,11 +15,14 @@ Dependencies:
     json
 """
 
+
 import os
 import json
 
+
 # File path used to store all golf club statistics in JSON format.
 GOLF_DATA_FILE = "../JSON/golf_clubs_statistics.json"
+
 
 # List of all golf club names tracked in the golf statistics JSON data.
 CLUB_NAMES = [
@@ -28,6 +31,7 @@ CLUB_NAMES = [
     "5i", "5hy", "6i", "6hy", "7i", "7hy", "8i", "8hy", "9i", "9hy",
     "pw", "gw", "sw", "lw", "putter"
 ]
+
 
 # Default statistics for each club, used when no previous data exists.
 DEFAULT_STATS = {
