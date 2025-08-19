@@ -114,7 +114,7 @@ def remove_distances(current_distances, delete_distances):
     """
     Remove specific shot distances from a list of current distances.
 
-    Uses a Counter to ensure only the specified number of matching distances
+    Uses a counter to ensure only the specified number of matching distances
     are removed (not all occurrences). Each distance in `delete_distances`
     is removed once per count from `current_distances`, preserving order
     for the remaining values.
