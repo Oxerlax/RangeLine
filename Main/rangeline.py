@@ -1,7 +1,7 @@
 """
 File Name: rangeline.py
 Author: Kris Bali
-------------
+-----------
 
 The main program to track golf distances provided by the user and save into a JSON file.
 
