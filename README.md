@@ -21,4 +21,4 @@ _(Coming soon – sample screenshots of the program in action will be uploaded a
 
 ## Status
 Code is fully functional and currently being cleaned, refactored, and documented for clarity.  
-**Expected public code release:** Late September/Early October 2025.
+**Expected public code release:** Late September/Early October, 2025.
