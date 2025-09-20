@@ -13,7 +13,7 @@
 - 🔄 Currently optimizing code structure, improving modularity, and adding error handling.
 
 ## Tech Stack
-- **Language:** Python 3.11  
+- **Language:** Python 3.13.5  
 - **Libraries:** `json`, `matplotlib`, `collections`
 
 ## Example Output
