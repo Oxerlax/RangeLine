@@ -22,7 +22,6 @@ from collections import deque
 from JSON import json_file_handling as file
 from matplotlib.ticker import MultipleLocator
 import matplotlib.pyplot as plt
-# Test
 
 def confirm(prompt, data=None):
     """
