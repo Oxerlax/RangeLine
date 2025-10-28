@@ -1,7 +1,7 @@
 """
 File Name: update.py
 Author: Kris Bali
------------
+----------
 
 Handles user input, adding, and removing golf distances for certain golf clubs
 from the golf statistics JSON file.
