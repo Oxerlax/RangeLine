@@ -7,3 +7,6 @@
 # Python cache files
 __pycache__/
 *.pyc
+
+# Ignore generated golf statistics
+JSON/golf_clubs_statistics.json
