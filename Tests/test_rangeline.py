@@ -25,7 +25,7 @@ def test_json_initialization():
     summary = load_or_initialize_summary()
 
     # Typical case
-    result = record_distances(summary, "driver", [100, 200, 100, 200, 100, 200])
+    result = record_distances(summary, "driver", [100, 200, 100, 200, 100, 200], True)
     assert result == {
         "Average Distance": 150.0,
         "Total Distance": 900,
@@ -35,7 +35,7 @@ def test_json_initialization():
     }
 
     # Edge case: no distances added (empty list)
-    result = record_distances(summary, "3w", [])
+    result = record_distances(summary, "3w", [], True)
     assert result == {
         "Average Distance": 0.0,
         "Total Distance": 0,
@@ -53,7 +53,7 @@ def test_record_distances_overflow_behavior():
 
     # Add 20 shots (more than 15) to test rolling window
     data = list(range(20))  # [0, 1, 2, ..., 19]
-    result = record_distances(summary, "5i", data, False)
+    result = record_distances(summary, "5i", data, True)
 
     # The average should include all shots
     assert result["Total Shots"] == 20

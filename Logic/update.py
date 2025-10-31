@@ -96,7 +96,7 @@ def record_distances(summary, club, distances, test=False):
 
     print(f"\n{club.capitalize()} Average Distance: {summary[club]['Average Distance']} yards")
 
-    if len(summary[club]["Past 15 Shots"]) == 15 and test:
+    if len(summary[club]["Past 15 Shots"]) == 15 and not test:
         if confirm("Show trend line? (y/n)"):
             plt.plot([i for i in range(1, 16)], summary[club]["Past 15 Shots"])
 
