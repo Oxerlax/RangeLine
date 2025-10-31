@@ -23,6 +23,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 ## Prerequisites 🐍⚡
 
   Python 3.11 or newer (https://www.python.org/downloads/)  
+  
   `matplotlib` library  
 
 ------
@@ -34,6 +35,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 ### 1. Clone the repository
 
   git clone https://github.com/Oxerlax/RangeLine.git
+  
   cd RangeLine
 
 ------
