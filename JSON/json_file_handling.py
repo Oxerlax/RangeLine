@@ -3,7 +3,7 @@ File Name: json_file_handling.py
 Author: Kris Bali
 ----------
 
-Handles loading, saving, and resetting golf club statistics data stored in a JSON file.
+Handles loading, saving, and resetting golf club statistics data stored in a JSON file for the user.
 
 Used by:
     Logic/update.py
