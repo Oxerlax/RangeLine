@@ -94,7 +94,9 @@ def record_distances(summary, club, distances, test=False):
 
     file.save_summary(summary)
 
-    print(f"\n{club.capitalize()} Average Distance: {summary[club]['Average Distance']} yards")
+    club_name = club.capitalize()
+
+    print(f"\n{club_name} Average Distance: {summary[club]['Average Distance']} yards")
 
     if len(summary[club]["Past 15 Shots"]) == 15 and not test:
         if confirm("Show trend line? (y/n)"):
@@ -103,20 +105,18 @@ def record_distances(summary, club, distances, test=False):
 
             plt.plot(x_values, y_values)
 
-            ax = plt.gca()
+            plt.title(f"{club_name} - Last 15 Shots")
+
+            plt.xlabel("Shot Number")
+            plt.ylabel("Distance (yards)")
 
             plt.xticks([5, 10, 15])
+
+            ax = plt.gca()
 
             ax.yaxis.set_major_locator(MultipleLocator(25))
 
             plt.show()
-            # plt.plot([i for i in range(1, 16)], summary[club]["Past 15 Shots"])
-            #
-            # ax = plt.gca()
-            # ax.xaxis.set_major_locator(MultipleLocator(1))
-            # ax.yaxis.set_major_locator(MultipleLocator(50))
-            #
-            # plt.show()
 
     return summary[club]
 
