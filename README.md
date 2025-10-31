@@ -33,7 +33,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 
 ### 1. Clone the repository
 
-  git clone https://github.com/<YOUR_GITHUB_USERNAME>/RangeLine.git
+  git clone https://github.com/Oxerlax/RangeLine.git
   cd RangeLine
 
 ------
