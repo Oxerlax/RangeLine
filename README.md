@@ -36,6 +36,8 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 
 ### 1. Clone the repository
 
+  Enter the following commands separately:
+
   git clone https://github.com/Oxerlax/RangeLine.git
   
   cd RangeLine
@@ -46,23 +48,32 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 
 **Windows**
 
+  Enter the following commands separately:
+
   python -m venv .venv
+  
   .venv\Scripts\activate.bat
 
 **macOS / Linux**
 
+  Enter the following commands separately:
+
   python3 -m venv .venv
+  
   source .venv/bin/activate
 
   You should now have a (.venv) next to your file path. 
   
   Example:
+  
   (.venv) C: Users/Me/RangeLine>
 
 ------
 
 ### 3. Install dependencies
 
+  Enter: 
+  
   pip install matplotlib
 
 ------
@@ -77,15 +88,19 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 
   **Windows**
 
+  Enter:
+
   dir
 
   **macOS / Linux**
+
+  Enter:
 
   ls
 
   ---
 
-  Once you have verified you have the folders, simply run:
+  Once you have verified you have the folders, simply enter:
 
   python -m Main.rangeline
 
@@ -99,9 +114,11 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 
   Install pytest if not already installed:
 
+  Enter:
+
   pip install pytest
 
-  Then run tests:
+  Then to run tests, enter:
 
   pytest
 
