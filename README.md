@@ -118,19 +118,33 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 ## Project Structure
 
   RangeLine/
+  
   ├── Main/
+  
   │ ├── __init__.py
+  
   │ └── rangeline.py
+  
   ├── Logic/
+  
   │ ├── __init__.py
+  
   │ └── update.py
+  
   ├── JSON/
+  
   │ ├── __init__.py
+  
   │ └── golf_clubs_statistics.json # generated automatically if it doesn't exist when running the program
+  
   ├── Tests/
+  
   │ └── __init__.py
+  
   │ └── test_rangeline.py
+  
   ├── .venv/ # virtual environment
+  
   └── README.md
 
 ------
