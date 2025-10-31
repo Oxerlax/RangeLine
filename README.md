@@ -86,6 +86,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
   python -m Main.rangeline
 
   Now you can simply follow the program's instructions! 🎉
+  
   Note: Exiting out of the program at any point could result in unsaved data, so be sure to confirm all inputs before exiting!
 
 ------
