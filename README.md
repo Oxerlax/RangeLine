@@ -64,10 +64,10 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 ------
 
 ## Run the Main Program ▶️
-️
-  ---
-  
+
   Make sure you are in the project root (the folder containing `Main/`, `Logic/`, `JSON/`, etc.)
+
+  ---
   
   To check this, enter the correct command:
 
