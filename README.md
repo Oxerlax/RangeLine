@@ -26,9 +26,11 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
   
   `matplotlib` library  
 
+  For the best experience, utilize the Command Prompt to successfully run this program.️ ⚠️
+
 ------
 
-## Setup Instructions (Cross-Platform) ⚙️
+## Setup Instructions (Cross-Platform) (Command Prompt Only) ⚙️
 
 ------
 
@@ -40,7 +42,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 
 ------
 
-### 2. Create a virtual environment (Command Prompt only)
+### 2. Create a virtual environment 
 
 **Windows**
 
