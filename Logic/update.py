@@ -98,13 +98,25 @@ def record_distances(summary, club, distances, test=False):
 
     if len(summary[club]["Past 15 Shots"]) == 15 and not test:
         if confirm("Show trend line? (y/n)"):
-            plt.plot([i for i in range(1, 16)], summary[club]["Past 15 Shots"])
+            x_values = list(range(1, 16))
+            y_values = summary[club]["Past 15 Shots"]
+
+            plt.plot(x_values, y_values)
 
             ax = plt.gca()
-            ax.xaxis.set_major_locator(MultipleLocator(1))
-            ax.yaxis.set_major_locator(MultipleLocator(50))
+
+            plt.xticks([5, 10, 15])
+
+            ax.yaxis.set_major_locator(MultipleLocator(25))
 
             plt.show()
+            # plt.plot([i for i in range(1, 16)], summary[club]["Past 15 Shots"])
+            #
+            # ax = plt.gca()
+            # ax.xaxis.set_major_locator(MultipleLocator(1))
+            # ax.yaxis.set_major_locator(MultipleLocator(50))
+            #
+            # plt.show()
 
     return summary[club]
 

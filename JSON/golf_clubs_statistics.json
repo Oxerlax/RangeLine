@@ -1,39 +1,61 @@
 {
   "driver": {
-    "Average Distance": 207.5,
-    "Total Distance": 4150,
-    "Total Shots": 20,
+    "Average Distance": 230.43,
+    "Total Distance": 13826,
+    "Total Shots": 60,
     "Past 5 Shots": [
-      200,
-      200,
-      200,
-      200,
-      200
+      267,
+      267,
+      291,
+      243,
+      203
     ],
     "Past 15 Shots": [
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200
+      250,
+      270,
+      255,
+      261,
+      218,
+      190,
+      201,
+      243,
+      251,
+      278,
+      267,
+      267,
+      291,
+      243,
+      203
     ]
   },
   "3w": {
-    "Average Distance": 0,
-    "Total Distance": 0,
-    "Total Shots": 0,
-    "Past 5 Shots": [],
-    "Past 15 Shots": []
+    "Average Distance": 211.43,
+    "Total Distance": 4863,
+    "Total Shots": 23,
+    "Past 5 Shots": [
+      270,
+      260,
+      267,
+      267,
+      240
+    ],
+    "Past 15 Shots": [
+      223,
+      243,
+      252,
+      290,
+      265,
+      220,
+      230,
+      190,
+      180,
+      190,
+      270,
+      260,
+      267,
+      267,
+      240
+    ]
   },
   "5w": {
     "Average Distance": 0,
