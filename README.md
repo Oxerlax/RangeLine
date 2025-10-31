@@ -46,7 +46,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 
 ### 2. Create a virtual environment 
 
-**Windows**
+**Windows** 🪟
 
   Enter the following commands separately:
 
@@ -54,7 +54,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
   
   .venv\Scripts\activate.bat
 
-**macOS / Linux**
+**macOS / Linux** 🍎/🐧
 
   Enter the following commands separately:
 
@@ -86,13 +86,13 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
   
   To check this, enter the correct command:
 
-  **Windows**
+  **Windows** 🪟
 
   Enter:
 
   dir
 
-  **macOS / Linux**
+  **macOS / Linux** 🍎/�
 
   Enter:
 
