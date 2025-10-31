@@ -152,6 +152,7 @@ RangeLine is a Python project that tracks and analyzes golf club distances. User
 ## Contact 🤝
 
   If you would like to let me know of any improvements I can make, send me an email and I'll see what I can do!
+  
   Email: [kob20800@gmail.com]
 
 ------
