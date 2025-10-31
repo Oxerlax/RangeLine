@@ -19,8 +19,13 @@ Dependencies:
 import os
 import json
 
-# File path used to store all golf club statistics in JSON format.
-GOLF_DATA_FILE = "../JSON/golf_clubs_statistics.json"
+
+# Determine project root based on the location of this file
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+# File path used to store all golf club statistics in JSON format
+GOLF_DATA_FILE = os.path.join(PROJECT_ROOT, "JSON", "golf_clubs_statistics.json")
 
 
 # List of all golf club names tracked in the golf statistics JSON data.
@@ -49,7 +54,7 @@ def save_summary(summary) -> None:
     Args:
         summary (dict): data to import into the json file
     """
-
+    os.makedirs(os.path.dirname(GOLF_DATA_FILE), exist_ok=True)  # ensure folder
     with open(GOLF_DATA_FILE, "w") as f:
         json.dump(summary, f, indent=2)
 
